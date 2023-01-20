@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import Intro from '../assets/components/home/Intro'
 
 function App() {
 
   return (
     <div className="">
-      Home
+      <Intro />
     </div>
   )
 }
