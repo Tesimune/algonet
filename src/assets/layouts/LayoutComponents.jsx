@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 function LayoutComponents(props) {
   return (
     <div>
-        <Navbar />
+        {/* <Navbar /> */}
           <div className='min-h-screen'>
             { props.children }
           </div>
