@@ -2,7 +2,7 @@ import React from 'react'
 
 function Carosel() {
   return (
-    <div className='grid pr-52 pl-9'>
+    <div className='grid pr-52 pl-9 text-white'>
         <div className='flex gap-2 h-[392.43px]'>
             <div>
                 <img className='h-full' src='/images/1.png' alt='' />

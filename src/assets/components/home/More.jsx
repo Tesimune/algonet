@@ -2,7 +2,7 @@ import React from 'react'
 
 function More() {
   return (
-    <div className='bg-[url("/app/section.jpg")] p-28'>
+    <div className='bg-[url("/app/bgdark.jpg")] p-28 text-white'>
       <div className='grid grid-cols-2'>
         <div className='grid gap-5 text-white'>
           <span className='text-5xl'>Strategy, Design &</span>
