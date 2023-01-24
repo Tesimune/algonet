@@ -6,28 +6,28 @@ import FullService from '../assets/components/home/FullService'
 import Landing from '../assets/components/home/Landing'
 import More from '../assets/components/home/More'
 import WorkWithUs from '../assets/components/home/WorkWithUs'
-import Navbar from '../assets/layouts/Navbar'
 import ContactPage, { Contact } from './Contact'
+import LayoutComponents from '../assets/layouts/LayoutComponents';
 
 function App() {
 
   return (
-    <div className='bg-[url("/app/Slider.jpg")] w-full'>
+    <>
+    
+      <LayoutComponents>
+        <div className='bg-[url("/app/Slider.jpg")] w-full'>
+          <Landing />
+          <Carosel />
+          <More />
+          <WorkWithUs />
+          <FullService />
+          <Featured />
+          <Exclusive />
+          <Contact />
+        </div>
+      </LayoutComponents>
       
-      <Navbar />
-      
-      <div>
-        <Landing />
-        <Carosel />
-        <More />
-        <WorkWithUs />
-        <FullService />
-        <Featured />
-        <Exclusive />
-        <Contact />
-      </div>
-      
-    </div>
+    </>
   )
 }
 

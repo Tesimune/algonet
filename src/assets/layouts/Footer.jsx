@@ -9,7 +9,7 @@ import {
 function Footer() {
   return (
     <div>
-      <div className='grid grid-cols-2 px-28'>
+      <div className='bg-white grid grid-cols-2 px-28'>
         
         <section className='bg-algonet-1 text-white p-16'>
           <div className='flex justify-between pb-9'>
