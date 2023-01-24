@@ -17,7 +17,7 @@ function Navbar() {
               <NavLink href='services'>Services</NavLink>
               <NavLink href='contact'>Contact</NavLink>
             </div>
-            <button className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</button>
+            <a href='' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
         </div>
     </>
   )

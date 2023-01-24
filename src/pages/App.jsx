@@ -7,6 +7,7 @@ import Landing from '../assets/components/home/Landing'
 import More from '../assets/components/home/More'
 import WorkWithUs from '../assets/components/home/WorkWithUs'
 import Navbar from '../assets/layouts/Navbar'
+import ContactPage, { Contact } from './Contact'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <FullService />
         <Featured />
         <Exclusive />
+        <Contact />
       </div>
       
     </div>

@@ -9,7 +9,7 @@ function LayoutComponents(props) {
           <div className='min-h-screen'>
             { props.children }
           </div>
-        {/* <Footer /> */}
+        <Footer />
     </div>
   )
 }
