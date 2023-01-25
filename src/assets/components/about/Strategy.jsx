@@ -10,7 +10,7 @@ function Strategy() {
                 <p className='text-lg pr-28'>Lets tell your target audience about your business, services and products.</p>
             </div>
             <div>
-                <img src='/images/div.jpg' alt='div' />
+                <img src='/images/digital.jpg' alt='div' />
             </div>
         </div>
     </div>
