@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import './css/index.css'
+import './css/index.css'
 import './sass/app.scss';
 import App from './pages/App'
 import About from './pages/About'
@@ -14,13 +14,15 @@ import ErrorPage from './pages/ErrorPage'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-        <Routes>
+      <Routes>
+        <Route>
           <Route index element={<App />} />
           <Route path="about" element={<About />} />
           <Route path="works" element={<Works />} />
           <Route path="services" element={<Services />} />
           <Route path="*" element={<ErrorPage />} />
-        </Routes>
+        </Route>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>,
 )
