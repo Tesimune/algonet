@@ -28,7 +28,7 @@ export default Navbar;
 export function AltNavbar() {
   return ( 
     <>
-      <div className='flex justify-between items-center py-9 px-5 md:px-20'>
+      <div className='bg-white flex justify-between items-center py-9 px-5 md:px-20 absolute w-full'>
         <a href='/' className='flex'>
           <span className='flex items-center text-red-700 font-bold text-xl uppercase'>ALgonet</span>
           <img className='flex items-center' src='/app/MEDIA.png' alt='logo' />
