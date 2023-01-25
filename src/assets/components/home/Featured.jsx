@@ -10,7 +10,22 @@ function Featured() {
         </div>
         <div className='grid grid-cols-4'>
             <div className='grid gap-2'>
-                <img src='/images/carosel1.png' className='w-full' alt='' />
+                <img src='/images/carosel1.png' className='w-full h-[400px]' alt='' />
+                <span className='text-xl pr-5'>Branding</span>
+                <span className='text-sm pr-5'>Content</span>
+            </div>
+            <div className='grid gap-2'>
+                <img src='/images/carosel2.png' className='w-full h-[400px]' alt='' />
+                <span className='text-xl pr-5'>Content</span>
+                <span className='text-sm pr-5'>Branding</span>
+            </div>
+            <div className='grid gap-2'>
+                <img src='/images/carosel3.png' className='w-full h-[400px]' alt='' />
+                <span className='text-xl pr-5'>Branding</span>
+                <span className='text-sm pr-5'>Content</span>
+            </div>
+            <div className='grid gap-2'>
+                <img src='/images/carosel4.png' className='w-full h-[400px]' alt='' />
                 <span className='text-xl pr-5'>Branding</span>
                 <span className='text-sm pr-5'>Content</span>
             </div>

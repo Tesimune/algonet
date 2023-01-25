@@ -15,7 +15,7 @@ function App() {
     <>
     
       <LayoutComponents>
-        <div className='bg-[url("/app/Slider.jpg")] w-full'>
+        <div className='bg-[url("/app/Slider.jpg")] w-full pt-20'>
           <Landing />
           <Carosel />
           <More />

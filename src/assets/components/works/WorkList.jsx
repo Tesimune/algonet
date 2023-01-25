@@ -15,49 +15,49 @@ function WorkList() {
                 
                 <div className='grid grid-cols-3 gap-5 px-28'>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff1.jpg' alt='' />
+                        <img src='/images/div.png' alt='div' />
                         <span className='flex justify-center text-lg'>Branding</span>
                         <span className='flex justify-center text-xs'>Founder & CEO</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff2.jpg' alt='' />
+                        <img src='/images/div1.png' alt='div' />
                         <span className='flex justify-center text-lg'>Content</span>
-                        <span className='flex justify-center text-xs'>Head of Marketing</span>
+                        <span className='flex justify-center text-xs'>Branding</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff3.jpg' alt='' />
+                        <img src='/images/div2.png' alt='div' />
                         <span className='flex justify-center text-lg'>Branding</span>
-                        <span className='flex justify-center text-xs'>Design Lead</span>
+                        <span className='flex justify-center text-xs'>Content</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff1.jpg' alt='' />
+                        <img src='/images/div3.png' alt='div' />
                         <span className='flex justify-center text-lg'>Strategy</span>
-                        <span className='flex justify-center text-xs'>Founder & CEO</span>
+                        <span className='flex justify-center text-xs'>Creative</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff2.jpg' alt='' />
+                        <img src='/images/div4.png' alt='div' />
                         <span className='flex justify-center text-lg'>Branding</span>
-                        <span className='flex justify-center text-xs'>Head of Marketing</span>
+                        <span className='flex justify-center text-xs'>Branding</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff3.jpg' alt='' />
+                        <img src='/images/div5.png' alt='div' />
                         <span className='flex justify-center text-lg'>Creative</span>
-                        <span className='flex justify-center text-xs'>Design Lead</span>
+                        <span className='flex justify-center text-xs'>Branding</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff1.jpg' alt='' />
+                        <img src='/images/div6.png' alt='div' />
                         <span className='flex justify-center text-lg'>Creative</span>
-                        <span className='flex justify-center text-xs'>Founder & CEO</span>
+                        <span className='flex justify-center text-xs'>Content</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff2.jpg' alt='' />
+                        <img src='/images/div7.png' alt='div' />
                         <span className='flex justify-center text-lg'>Content</span>
-                        <span className='flex justify-center text-xs'>Head of Marketing</span>
+                        <span className='flex justify-center text-xs'>Branding</span>
                     </div>
                     <div className='grid justify-center font-semibold gap-1'>
-                        <img src='/images/staff3.jpg' alt='' />
+                        <img src='/images/div8.png' alt='div' />
                         <span className='flex justify-center text-lg'>Strategy</span>
-                        <span className='flex justify-center text-xs'>Design Lead</span>
+                        <span className='flex justify-center text-xs'>Strategy</span>
                     </div>
                 </div>
 
