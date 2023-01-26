@@ -8,19 +8,22 @@ import About from './pages/About'
 import Works from './pages/Works'
 import Services from './pages/Services'
 import ErrorPage from './pages/ErrorPage'
+import LayoutComponents, { AltLayoutComponents } from './assets/layouts/LayoutComponents';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/"  element={<LayoutComponents />}>
           <Route index element={<App />} />
-            <Route path="about" element={<About />} />
-            <Route path="works" element={<Works />} />
-            <Route path="services" element={<Services />} />
-            <Route path="*" element={<ErrorPage />} />
-          </Route>
+        </Route>
+        <Route path="/" element={<AltLayoutComponents />}>
+          <Route path="about" element={<About />} />
+          <Route path="works" element={<Works />} />
+          <Route path="services" element={<Services />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

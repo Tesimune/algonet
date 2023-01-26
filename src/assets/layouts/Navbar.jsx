@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import NavLink from '../components/NavLink'
 
 function Navbar() {
@@ -10,14 +11,26 @@ function Navbar() {
               <img className='flex items-center' src='/app/MEDIA.png' alt='logo' />
             </a>
             <div className='flex gap-5 font-bold text-gray-50'>
-              <NavLink href='/' active='/'>Home</NavLink>
-              <NavLink href='about'>About</NavLink>
-              <NavLink href='works'>Works</NavLink>
-              <NavLink href='blogs'>Blogs</NavLink>
-              <NavLink href='services'>Services</NavLink>
-              <NavLink href='contact'>Contact</NavLink>
+              <NavLink>
+                <Link to='/' active='/'>Home</Link>
+              </NavLink>
+              <NavLink>
+                <Link to='about'>About</Link>
+              </NavLink>
+              <NavLink>
+                <Link to='works'>Works</Link>
+              </NavLink>
+              <NavLink>
+                <Link to='blogs'>Blogs</Link>
+              </NavLink>
+              <NavLink>
+                <Link to='services'>Services</Link>
+              </NavLink>
+              <NavLink>
+                <Link to='contact'>Contact</Link>
+              </NavLink>
             </div>
-            <a href='' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
+            <a to='' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
         </div>
     </>
   )
@@ -34,12 +47,24 @@ export function AltNavbar() {
           <img className='flex items-center' src='/app/MEDIA.png' alt='logo' />
         </a>
         <div className='flex gap-5 font-bold text-black'>
-          <NavLink href='/' active='/'>Home</NavLink>
-          <NavLink href='about'>About</NavLink>
-          <NavLink href='works'>Works</NavLink>
-          <NavLink href='blogs'>Blogs</NavLink>
-          <NavLink href='services'>Services</NavLink>
-          <NavLink href='contact'>Contact</NavLink>
+          <NavLink>
+            <Link to='/' active='/'>Home</Link>
+          </NavLink>
+          <NavLink>
+            <Link to='about'>About</Link>
+          </NavLink>
+          <NavLink>
+            <Link to='works'>Works</Link>
+          </NavLink>
+          <NavLink>
+            <Link to='blogs'>Blogs</Link>
+          </NavLink>
+          <NavLink>
+            <Link to='services'>Services</Link>
+          </NavLink>
+          <NavLink>
+            <Link to='contact'>Contact</Link>
+          </NavLink>
         </div>
         <button className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</button>
       </div>
