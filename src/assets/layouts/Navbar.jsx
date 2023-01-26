@@ -11,26 +11,26 @@ function Navbar() {
               <img className='flex items-center' src='/app/MEDIA.png' alt='logo' />
             </a>
             <div className='flex gap-5 font-bold text-gray-50'>
-              <NavLink>
-                <Link to='/' active='/'>Home</Link>
+              <NavLink active='/'>
+                <Link to='/'>Home</Link>
               </NavLink>
               <NavLink>
-                <Link to='about'>About</Link>
+                <Link to='/about'>About</Link>
               </NavLink>
               <NavLink>
-                <Link to='works'>Works</Link>
+                <Link to='/works'>Works</Link>
               </NavLink>
               <NavLink>
-                <Link to='blogs'>Blogs</Link>
+                <Link to='/blogs'>Blogs</Link>
               </NavLink>
               <NavLink>
-                <Link to='services'>Services</Link>
+                <Link to='/services'>Services</Link>
               </NavLink>
               <NavLink>
-                <Link to='contact'>Contact</Link>
+                <Link to='/contact'>Contact</Link>
               </NavLink>
             </div>
-            <a to='' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
+            <a href='/' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
         </div>
     </>
   )
@@ -48,25 +48,25 @@ export function AltNavbar() {
         </a>
         <div className='flex gap-5 font-bold text-black'>
           <NavLink>
-            <Link to='/' active='/'>Home</Link>
+            <Link to='/'>Home</Link>
           </NavLink>
           <NavLink>
-            <Link to='about'>About</Link>
+            <Link to='/about'>About</Link>
           </NavLink>
           <NavLink>
-            <Link to='works'>Works</Link>
+            <Link to='/works'>Works</Link>
           </NavLink>
           <NavLink>
-            <Link to='blogs'>Blogs</Link>
+            <Link to='/blogs'>Blogs</Link>
           </NavLink>
           <NavLink>
-            <Link to='services'>Services</Link>
+            <Link to='/services'>Services</Link>
           </NavLink>
           <NavLink>
-            <Link to='contact'>Contact</Link>
+            <Link to='/contact'>Contact</Link>
           </NavLink>
         </div>
-        <button className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</button>
+        <a href='/' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
       </div>
     </>
    );

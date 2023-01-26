@@ -15,15 +15,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/"  element={<LayoutComponents />}>
           <Route index element={<App />} />
-        </Route>
-        <Route path="/" element={<AltLayoutComponents />}>
           <Route path="about" element={<About />} />
           <Route path="works" element={<Works />} />
           <Route path="services" element={<Services />} />
           <Route path="*" element={<ErrorPage />} />
-        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
