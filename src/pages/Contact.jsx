@@ -5,8 +5,8 @@ export function Contact () {
     return ( 
         <div className='bg-[url(/app/bglight.jpg)] p-28'>
           <div className='grid md:grid-cols-3 bg-slate-900 text-white rounded-lg'>
-            <div className='grid col-span-1'>
-              <img src='/images/contacts.png' className='' alt='' />
+            <div className='grid col-span-1 p-3'>
+              <img src='/images/contacts.gif' className='' alt='' />
             </div>
             <div className='grid col-span-2'>
               <div className='flex flex-col gap-5 p-16 w-2/3'>

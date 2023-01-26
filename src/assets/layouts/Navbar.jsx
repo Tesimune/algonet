@@ -5,11 +5,11 @@ import NavLink from '../components/NavLink'
 function Navbar() {
   return (
     <>
-        <div className='bg-transparent flex justify-between items-center py-9 px-5 md:px-20 absolute w-full'>
-            <a href='/' className='flex'>
+        <div className='bg-transparent flex justify-between items-center py-9 px-5 md:px-28 absolute w-full'>
+            <Link to='/' className='flex'>
               <span className='flex items-center text-red-700 font-bold text-xl uppercase'>ALgonet</span>
               <img className='flex items-center' src='/app/MEDIA.png' alt='logo' />
-            </a>
+            </Link>
             <div className='flex gap-5 font-bold text-gray-50'>
               <NavLink active='/'>
                 <Link to='/'>Home</Link>
@@ -30,7 +30,7 @@ function Navbar() {
                 <Link to='/contact'>Contact</Link>
               </NavLink>
             </div>
-            <a href='/' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
+            <Link to='/' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</Link>
         </div>
     </>
   )
@@ -41,11 +41,11 @@ export default Navbar;
 export function AltNavbar() {
   return ( 
     <>
-      <div className='bg-white flex justify-between items-center py-9 px-5 md:px-20 absolute w-full'>
-        <a href='/' className='flex'>
+      <div className='bg-white flex justify-between items-center py-9 px-5 md:px-28 absolute w-full'>
+        <Link to='/' className='flex'>
           <span className='flex items-center text-red-700 font-bold text-xl uppercase'>ALgonet</span>
           <img className='flex items-center' src='/app/MEDIA.png' alt='logo' />
-        </a>
+        </Link>
         <div className='flex gap-5 font-bold text-black'>
           <NavLink>
             <Link to='/'>Home</Link>
@@ -66,7 +66,7 @@ export function AltNavbar() {
             <Link to='/contact'>Contact</Link>
           </NavLink>
         </div>
-        <a href='/' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</a>
+        <Link to='/' className='bg-white border border-red-600 p-3 text-red-600'>Let's connect</Link>
       </div>
     </>
    );
