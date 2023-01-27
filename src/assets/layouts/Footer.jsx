@@ -5,18 +5,18 @@ import {
     AiFillTwitterSquare, 
     AiFillLinkedin 
   } from 'react-icons/ai'
+import AppLogo from '../components/AppLogo'
 
 function Footer() {
   return (
     <div>
-      <div className='bg-white grid grid-cols-2 px-28'>
+      <div className='bg-white flex flex-col-reverse md:flex-col md:grid-cols-2 md:px-28'>
         
-        <section className='bg-algonet-1 text-white p-16'>
+        <section className='bg-algonet-1 text-white py-16 px-9 md:px-16'>
           <div className='flex justify-between pb-9'>
             <div className='grid gap-5'>
               <div className='flex items-center'>
-                <span className='flex items-center font-bold text-xl uppercase'>ALgonet</span>
-                <img className='flex items-center h-9' src='/app/MEDIA.png' alt='logo' />
+                <AppLogo />
               </div>
               <span className='w-4/5'>Algonet Media is a one stop marketing agency that offers creative and professional digital marketing solutions. </span>
               <div className='flex gap-3'>
@@ -51,7 +51,7 @@ function Footer() {
           </div>
         </section>
 
-        <section className='grid grid-cols-3 p-16'>
+        <section className='grid md:grid-cols-3 p-16 border-t-4'>
           <div>
             <div className='grid gap-3'>
               <label className='font-bold text-lg'>Resources</label>

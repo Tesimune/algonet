@@ -2,8 +2,8 @@ import React from 'react'
 
 function Exclusive() {
   return (
-    <div className='bg-[url(/app/bgdark.jpg)] p-28 text-white'>
-        <div className='grid grid-cols-5 gap-3'>
+    <div className='bg-[url(/app/bgdark.jpg)] py-28 px-5 md:px-28  text-white'>
+        <div className='grid md:grid-cols-5 gap-3'>
           <div className='grid col-span-2'>
             <div className='flex flex-col gap-5'>
               <img src='/images/ex1.jpg' alt='item' />

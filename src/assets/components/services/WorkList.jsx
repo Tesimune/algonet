@@ -6,7 +6,7 @@ function WorkList() {
     <div className='bg-[url(/app/bglight.jpg)]'>
         <div>
             <div className='grid gap-5'>
-                <div className='grid grid-cols-3 gap-9 px-28'>
+                <div className='grid md:grid-cols-3 gap-9 px-5 md:px-28 '>
                     <div className='grid justify-center font-semibold gap-3'>
                         <img src='/images/div9.png' alt='' />
                         <span className='pl-5 flex justify-start text-lg'>Virtual  Marketing </span>

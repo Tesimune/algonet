@@ -5,12 +5,12 @@ import { AiOutlineSnippets } from 'react-icons/ai'
 
 function WorkWithUs() {
   return (
-    <div className='bg-[url(/app/bglight.jpg)] p-28 text-black'>
-      <div className='grid gap-5 w-1/2'>
+    <div className='bg-[url(/app/bglight.jpg)] py-28 px-5 md:px-28  text-black'>
+      <div className='grid gap-5 md:w-1/2'>
         <span className='text-5xl font-bold'>Work with us</span>
-        <span className='text-xl pr-28'>Lets tell your target audience about your business, services and products.</span>
+        <span className='text-xl md:pr-28'>Lets tell your target audience about your business, services and products.</span>
       </div>
-      <div className='grid grid-cols-3 gap-5 pt-9'>
+      <div className='grid md:grid-cols-3 gap-5 pt-9'>
         <div className='flex items-start'>
           <div className='pr-3'>
             <HiDatabase className='flex items-start h-6 w-6' />
