@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 function Landing() {
   return (
@@ -11,6 +12,9 @@ function Landing() {
               </div>
               <div className='p-5 md:pl-36'>
                 <p className='text-lg'>Algonet Media is a one stop marketing agency that offers creative and professional digital marketing solutions. We help businesses to reach their target audiences through our effective and innovative marketing campaigns. Our services include SEO, social media marketing, email marketing, and content marketing.</p>
+              </div>
+              <div className='flex p-5 md:pl-36'>
+                <Link to='/' className='bg-red-600 p-3 text-white'>Let's connect</Link>
               </div>
             </div>
             <div className='p-3 md:p-16'>
