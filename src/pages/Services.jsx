@@ -1,8 +1,8 @@
 import React from 'react'
-import ContactPage, { Contact } from './Contact'
 import LayoutComponents, { AltLayoutComponents } from '../assets/layouts/LayoutComponents';
 import Landing from '../assets/components/services/Landing'
 import WorkList from '../assets/components/services/WorkList';
+import ContactCard from '../assets/components/contact/ContactCard'
 
 function Services() {
   return (
@@ -13,7 +13,7 @@ function Services() {
           <Landing />
           <WorkList />
         </div>
-        <Contact />
+        <ContactCard />
       </AltLayoutComponents> 
     
     </>

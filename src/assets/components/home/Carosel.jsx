@@ -7,10 +7,12 @@ function Carosel() {
             <div>
                 <img className='h-full' src='/images/1.png' alt='' />
             </div>
-            <div className='flex gap-2'>
-                <img className='h-full' src='/images/2.png' alt='' />
-                {/* <img className='h-full' src='/images/3.png' alt='' />
-                <img className='h-full' src='/images/4.png' alt='' /> */}
+            <div className='hidden md:block'>
+              <div className='flex gap-2 overflow-auto'>
+                  <img className='h-full' src='/images/2.png' alt='' />
+                  <img className='h-full' src='/images/3.png' alt='' />
+                  <img className='h-full' src='/images/4.png' alt='' />
+              </div>
             </div>
         </div>
     </div>

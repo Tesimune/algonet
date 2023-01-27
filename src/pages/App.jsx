@@ -6,7 +6,7 @@ import FullService from '../assets/components/home/FullService'
 import Landing from '../assets/components/home/Landing'
 import More from '../assets/components/home/More'
 import WorkWithUs from '../assets/components/home/WorkWithUs'
-import ContactPage, { Contact } from './Contact'
+import ContactCard from '../assets/components/contact/ContactCard'
 import LayoutComponents from '../assets/layouts/LayoutComponents';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <FullService />
           <Featured />
           <Exclusive />
-          <Contact />
+          <ContactCard />
         </div>
       </LayoutComponents>
       

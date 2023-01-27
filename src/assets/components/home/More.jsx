@@ -18,14 +18,14 @@ function More() {
         <div className=''>
           <div className='flex gap-3'>
             <div className='pt-40'>
-              <img src='/images/al1.png' className='h-[400px] w-[195px] transition duration-700 hover:grayscale' alt='' />
+              <img src='/images/al1.png' className='md:h-[400px] md:w-[195px] transition duration-700 hover:grayscale' alt='' />
             </div>
-            {/* <div className='pt-56'>
-              <img src='/images/al2.png' className='h-[400px] w-[195px] transition duration-700 hover:grayscale' alt='' />
+            <div className='pt-56'>
+              <img src='/images/al2.png' className='md:h-[400px] md:w-[195px] transition duration-700 hover:grayscale' alt='' />
             </div>
             <div className='pt-40'>
-              <img src='/images/al3.png' className='h-[400px] w-[195px] transition duration-700 hover:grayscale' alt='' />
-            </div> */}
+              <img src='/images/al3.png' className='md:h-[400px] md:w-[195px] transition duration-700 hover:grayscale' alt='' />
+            </div>
           </div>
         </div>
       </div>

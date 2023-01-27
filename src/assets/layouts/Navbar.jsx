@@ -33,9 +33,6 @@ function Navbar() {
                   <Link to='/works'>Works</Link>
                 </NavLink>
                 <NavLink>
-                  <Link to='/blogs'>Blogs</Link>
-                </NavLink>
-                <NavLink>
                   <Link to='/services'>Services</Link>
                 </NavLink>
                 <NavLink>
@@ -81,9 +78,6 @@ export function AltNavbar() {
             </NavLink>
             <NavLink>
               <Link to='/works'>Works</Link>
-            </NavLink>
-            <NavLink>
-              <Link to='/blogs'>Blogs</Link>
             </NavLink>
             <NavLink>
               <Link to='/services'>Services</Link>

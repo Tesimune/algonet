@@ -11,24 +11,24 @@ function Featured() {
         <div className='grid md:grid-cols-4'>
             <div className='grid gap-2'>
                 <img src='/images/carosel1.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pr-5'>Branding</span>
-                <span className='text-sm pr-5'>Content</span>
+                <span className='text-xl pl-5'>Branding</span>
+                <span className='text-sm pl-5'>Content</span>
             </div>
-            {/* <div className='grid gap-2'>
+            <div className='grid gap-2'>
                 <img src='/images/carosel2.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pr-5'>Content</span>
-                <span className='text-sm pr-5'>Branding</span>
+                <span className='text-xl pl-5'>Content</span>
+                <span className='text-sm pl-5'>Branding</span>
             </div>
             <div className='grid gap-2'>
                 <img src='/images/carosel3.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pr-5'>Branding</span>
-                <span className='text-sm pr-5'>Content</span>
+                <span className='text-xl pl-5'>Branding</span>
+                <span className='text-sm pl-5'>Content</span>
             </div>
             <div className='grid gap-2'>
                 <img src='/images/carosel4.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pr-5'>Branding</span>
-                <span className='text-sm pr-5'>Content</span>
-            </div> */}
+                <span className='text-xl pl-5'>Branding</span>
+                <span className='text-sm pl-5'>Content</span>
+            </div>
         </div>
     </div>
   )

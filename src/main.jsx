@@ -9,6 +9,7 @@ import Works from './pages/Works'
 import Services from './pages/Services'
 import ErrorPage from './pages/ErrorPage'
 import LayoutComponents, { AltLayoutComponents } from './assets/layouts/LayoutComponents';
+import ContactPage from './pages/Contact';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="about" element={<About />} />
           <Route path="works" element={<Works />} />
           <Route path="services" element={<Services />} />
+          <Route path="contact" element={<ContactPage />} />
           <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

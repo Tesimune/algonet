@@ -10,9 +10,9 @@ import AppLogo from '../components/AppLogo'
 function Footer() {
   return (
     <div>
-      <div className='bg-white flex flex-col-reverse md:flex-col md:grid-cols-2 md:px-28'>
+      <div className='bg-white flex md:grid flex-col-reverse md:flex-col md:grid-cols-2 md:px-28'>
         
-        <section className='bg-algonet-1 text-white py-16 px-9 md:px-16'>
+        <section className='grid col-span-1 bg-algonet-1 text-white py-16 px-9 md:px-16'>
           <div className='flex justify-between pb-9'>
             <div className='grid gap-5'>
               <div className='flex items-center'>
@@ -51,7 +51,7 @@ function Footer() {
           </div>
         </section>
 
-        <section className='grid md:grid-cols-3 p-16 border-t-4'>
+        <section className='grid md:grid-cols-3 p-16 border-t-4 md:border-t-0'>
           <div>
             <div className='grid gap-3'>
               <label className='font-bold text-lg'>Resources</label>
