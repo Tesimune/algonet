@@ -1,3 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.logo {
+    -webkit-clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
+  }
+.rotate {
+    font-family: verdana, sans-serif;
+    color: #ffffff;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  
+.clip {
+    -webkit-clip-path: polygon(0 73%, 100% 51%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 73%, 100% 51%, 100% 100%, 0% 100%);
+  }
