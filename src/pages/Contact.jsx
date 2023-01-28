@@ -7,8 +7,10 @@ function Contact() {
   return (
     <>
       <AltLayoutComponents>
-        {/* <ContactCard /> */}
-        <Form />
+        <div className='bg-[url(/app/bglight.jpg)]'>
+          {/* <ContactCard /> */}
+          <Form />
+        </div>
       </AltLayoutComponents>
     </>
   )
