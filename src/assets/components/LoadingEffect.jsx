@@ -5,23 +5,21 @@ function LoadingEffect(props) {
     const [loading, setLoading] = useState(true);
 
     const location = useLocation();
+  
     useEffect(() => {
-        setLoading(true)
+        // setLoading(true)
+        window.addEventListener("load", () => setLoading(false));
         setTimeout(() => {
         setLoading(false);
         }, 2000);
+        // return () => window.removeEventListener("load", () => setLoading(false));
     }, [location.pathname]);
-  
-    useEffect(() => {
-        window.addEventListener("load", () => setLoading(false));
-        return () => window.removeEventListener("load", () => setLoading(false));
-    }, []);
 
   return (
     <div>
         {loading ? 
             <>
-                <div className='flex justify-center items-center min-h-screen'>
+                <div className='bg-white flex justify-center items-center min-h-screen p-28'>
                     <img src='/app/algonet.gif' className='flex items-center text-5xl font-bold' />
                 </div> 
             </>
