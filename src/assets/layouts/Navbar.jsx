@@ -87,7 +87,7 @@ export function AltNavbar() {
             </NavLink>
           </div>
         </div>
-        <Link to='/' className='bg-white border hidden md:block border-red-600 p-3 text-red-600'>Let's connect</Link>
+        <Link to='/contact' className='bg-white border hidden md:block border-red-600 p-3 text-red-600'>Let's connect</Link>
         <button onClick={Hambuger} className='text-black md:hidden'>
           <GoThreeBars className='w-9 h-9' />
         </button>

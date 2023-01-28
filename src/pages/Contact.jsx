@@ -10,8 +10,8 @@ function Contact() {
       <LoadingEffect>
         <AltLayoutComponents>
           <div className='bg-[url(/app/bglight.jpg)]'>
-            {/* <ContactCard /> */}
             <Form />
+            <ContactCard />
           </div>
         </AltLayoutComponents>
       </LoadingEffect>

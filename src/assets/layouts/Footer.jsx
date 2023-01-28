@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import { 
     AiFillInstagram, 
     AiFillFacebook, 
@@ -37,11 +38,11 @@ function Footer() {
             <div>
               <h1 className='font-bold pb-3'>About</h1>
               <div className='grid gap-5 text-sm'>
-                <a href=''>Home</a>
-                <a href=''>About</a>
-                <a href=''>Services</a>
-                <a href=''>Blogs</a>
-                <a href=''>Contact</a>
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
+                  <Link to='/works'>Works</Link>
+                <Link to='/services'>Services</Link>
+                <Link to='/contact'>Contact</Link>
               </div>
             </div>
           </div>
@@ -51,14 +52,14 @@ function Footer() {
           </div>
         </section>
 
-        <section className='grid md:grid-cols-3 p-16 border-t-4 md:border-t-0'>
+        <section className='grid md:grid-cols-3 gap-5 p-16 border-t-4 md:border-t-0'>
           <div>
             <div className='grid gap-3'>
               <label className='font-bold text-lg'>Resources</label>
-              <a href=''>Overview</a>
-              <a href=''>Documentation</a>
-              <a href=''>Integrations</a>
-              <a href=''>Status Page</a>
+              <Link to='/'>Overview</Link>
+              <Link to='/'>Documentation</Link>
+              <Link to='/'>Integrations</Link>
+              <Link to='/'>Status Page</Link>
             </div>
           </div>
           <div>
@@ -74,10 +75,10 @@ function Footer() {
           <div>
             <div className='grid gap-3'>
               <label className='font-bold text-lg'>Support</label>
-              <a href=''>Help Desk</a>
-              <a href=''>Contact Us</a>
-              <a href=''>Integrations</a>
-              <a href=''>How it works</a>
+              <Link to='/'>Help Desk</Link>
+              <Link to='/'>Contact Us</Link>
+              <Link to='/'>Integrations</Link>
+              <Link to='/'>How it works</Link>
             </div>
           </div>
         </section>
