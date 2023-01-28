@@ -8,7 +8,7 @@ function Carosel() {
                 <img className='h-full' src='/images/1.png' alt='' />
             </div>
             <div className='hidden md:block'>
-              <div className='flex gap-2 overflow-auto'>
+              <div className='flex gap-2'>
                   <img className='h-full' src='/images/2.png' alt='' />
                   <img className='h-full' src='/images/3.png' alt='' />
                   <img className='h-full' src='/images/4.png' alt='' />

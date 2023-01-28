@@ -4,7 +4,7 @@ import TextAnimation from '../TextAnimation'
 function Landing() {
   return (
     <div>
-      <section className='grid justify-start md:w-2/3 gap-3 py-28 px-5 md:px-28 text-white'>
+      <section className='grid justify-start md:w-2/3 gap-3 py-16 md:py-28 px-5 md:px-28 text-white'>
         <span className='text-5xl'>Connect with us to help </span>
         <div className='text-5xl'>
           <TextAnimation>
