@@ -19,7 +19,7 @@ function LoadingEffect(props) {
     <div>
         {loading ? 
             <>
-                <div className='bg-white flex justify-center items-center min-h-screen p-28'>
+                <div className='bg-white flex justify-center items-center min-h-screen p-9'>
                     <img src='/app/algonet.gif' className='flex items-center text-5xl font-bold' />
                 </div> 
             </>
