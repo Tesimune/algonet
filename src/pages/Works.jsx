@@ -3,19 +3,20 @@ import LayoutComponents, { AltLayoutComponents } from '../assets/layouts/LayoutC
 import Landing from '../assets/components/works/Landing'
 import WorkList from '../assets/components/works/WorkList';
 import ContactCard from '../assets/components/contact/ContactCard'
+import LoadingEffect from '../assets/components/LoadingEffect';
 
 function Works() {
   return (
     <>
-
-      <AltLayoutComponents>
-        <div className='bg-[url(/app/altbglight.jpg)]'>
-          <Landing />
-          <WorkList />
-        </div>
-        <ContactCard />
-      </AltLayoutComponents> 
-    
+      <LoadingEffect>
+        <AltLayoutComponents>
+          <div className='bg-[url(/app/altbglight.jpg)]'>
+            <Landing />
+            <WorkList />
+          </div>
+          <ContactCard />
+        </AltLayoutComponents> 
+      </LoadingEffect>
     </>
   )
 }
