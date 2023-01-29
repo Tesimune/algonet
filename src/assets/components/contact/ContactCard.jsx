@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ContactCard() {
   return (
@@ -13,7 +14,7 @@ function ContactCard() {
               <h2 className='text-5xl'>Ready for real results?</h2>
               <span>Book a free Digital Marketing audit and get started with the best strategy</span>
               <div className='py-7'>
-                <a href='' className='bg-white border border-red-600 p-3 text-red-600'>Book Now</a>
+                <Link to='/contact' className='bg-white border border-red-600 p-3 text-red-600'>Book Now</Link>
               </div>
             </div>
           </div>

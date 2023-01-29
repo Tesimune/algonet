@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import TextAnimation from '../TextAnimation'
 
 function Landing() {
@@ -13,7 +14,7 @@ function Landing() {
         </div>
         <span className='text-xl py-3 space-y-3'>Get the expertise and creaivity needed to propel your business to the next level.</span>
         <div>
-          <button className='bg-red-500 text-white text-sm py-3 px-5'>Book a free consultation</button>
+          <Link to='/contact' className='bg-red-500 text-white text-sm py-3 px-5'>Book a free consultation</Link>
         </div>
       </section>
     </div>
