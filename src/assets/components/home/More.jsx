@@ -12,7 +12,7 @@ function More() {
               Marketing done For you. 
             </TextAnimation>
           </div>
-          <span className='text-xl pr-24'>Lets tell your target audience about your business, services and products.</span>
+          <span className='text-xl pr-24'>Comprehensive digital marketing services to expand your reach and build long-term relationships.</span>
           <img className='h-[350px] w-[470px] border-8 border-gray-400 rounded-md mt-12' src='/images/gif.gif' alt='gif' />
         </div>
         <div className=''>

@@ -8,6 +8,13 @@ function WorkWithUs() {
     <div className='bg-[url(/app/bglight.jpg)] py-28 px-5 md:px-28  text-black'>
       <div className='grid gap-5 md:w-1/2'>
         <span className='text-5xl font-bold'>Work with us</span>
+        <ul className='text-xl md:pr-28 pl-3 list-disc'>
+          <li>Give your brand a voice</li>
+          <li>Reach a wider audience</li>
+          <li>Generate leads</li>
+          <li>Create Ads that convert</li>
+          <li>Increase sales</li>
+        </ul>
         <span className='text-xl md:pr-28'>Lets tell your target audience about your business, services and products.</span>
       </div>
       <div className='grid md:grid-cols-3 gap-5 pt-9'>
@@ -35,7 +42,7 @@ function WorkWithUs() {
           </div>
           <div className='grid gap-3'>
             <label className='font-bold text-2xl'>Creativity</label>
-            <span>We provide tailored solutions that are creative, professional and witty, and get the job done right. Our team of experts have years of experience in the field and are up-to-date with the latest trends and technologies.</span>
+            <span>Algonet provides first-class digital strategies for successful online compaigns. We have the knowledge and passion to increase your brand awareness and reach even more custumers</span>
           </div>
         </div>
       </div>

@@ -10,10 +10,10 @@ function ContactCard() {
           </div>
           <div className='grid md:col-span-2'>
             <div className='flex flex-col gap-5 p-5 md:p-16 md:w-2/3'>
-              <h2 className='text-5xl'>Ready to leave a mark?</h2>
-              <span>Book a consultation session with one of our experts, and we will find a tailored solution for you.</span>
+              <h2 className='text-5xl'>Ready for real results?</h2>
+              <span>Book a free Digital Marketing audit and get started with the best strategy</span>
               <div className='py-7'>
-                <a href='' className='bg-white border border-red-600 p-3 text-red-600'>Contact Us</a>
+                <a href='' className='bg-white border border-red-600 p-3 text-red-600'>Book Now</a>
               </div>
             </div>
           </div>
