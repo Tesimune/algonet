@@ -11,7 +11,7 @@ function Landing() {
             shape your Brand's Future 
           </TextAnimation>
         </div>
-        <span className='text-xl py-3 space-y-3'>Get the expertise and creaivity needed to propel your businessto the next level.</span>
+        <span className='text-xl py-3 space-y-3'>Get the expertise and creaivity needed to propel your business to the next level.</span>
         <div>
           <button className='bg-red-500 text-white text-sm py-3 px-5'>Book a free consultation</button>
         </div>
