@@ -9,7 +9,7 @@ function Exclusive() {
               <img src='/images/ex1.jpg' alt='item' />
               <h1 className='text-2xl font-bold'>Virtual  Marketing </h1>
               <p>Recruiting an entire Digital Marketing team internally isn't an option for some businesses.</p>
-              <a href='' className='underline'>Learn more</a>
+              {/* <a href='' className='underline'>Learn more</a> */}
             </div>
           </div>
 
@@ -22,7 +22,7 @@ function Exclusive() {
               <img src='/images/ex2.jpg' alt='item' />
               <h1 className='text-2xl font-bold'>Copywriting</h1>
               <p>Why not check out our copywriting service which can cover all types of page for your website?</p>
-              <a href='' className='underline'>Learn more</a>
+              {/* <a href='' className='underline'>Learn more</a> */}
             </div>
           </div>
         </div>

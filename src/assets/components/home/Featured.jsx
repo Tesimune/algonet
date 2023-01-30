@@ -18,24 +18,24 @@ function Featured() {
         </div>
         <div className='grid md:grid-cols-4'>
             <div className='grid gap-2'>
+                <span className='text-sm pl-5'>Content Marketing for your brand</span>
                 <img src='/images/carosel1.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pl-5'>Branding</span>
-                <span className='text-sm pl-5'>Content</span>
+                <span className='text-sm pl-5'>Content creation and design</span>
             </div>
             <div className='grid gap-2'>
+                <span className='text-sm pl-5'>SEO and SEM for website</span>
                 <img src='/images/carosel2.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pl-5'>Content</span>
-                <span className='text-sm pl-5'>Branding</span>
+                <span className='text-sm pl-5'>Social Media Marketing</span>
             </div>
             <div className='grid gap-2'>
+                <span className='text-sm pl-5'>Email Marketing</span>
                 <img src='/images/carosel3.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pl-5'>Branding</span>
-                <span className='text-sm pl-5'>Content</span>
+                <span className='text-sm pl-5'>Ads managment</span>
             </div>
             <div className='grid gap-2'>
+                <span className='text-sm pl-5'>Copy writing</span>
                 <img src='/images/carosel4.png' className='w-full h-[400px]' alt='' />
-                <span className='text-xl pl-5'>Branding</span>
-                <span className='text-sm pl-5'>Content</span>
+                <span className='text-sm pl-5'>And lots more...</span>
             </div>
         </div>
     </div>
