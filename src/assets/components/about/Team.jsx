@@ -8,7 +8,7 @@ function Team() {
                 <div className='grid gap-3 md:w-1/2'>
                     <div className='bg-gray-100 grid gap-5 py-16 px-3 md:px-28'>
                         <span className='text-5xl font-bold'>Meet the Team</span>
-                        <p className='text-lg'>Lets tell your target audience about your business, services and products.</p>
+                        <p className='text-lg'>Our team of experts is committed to providing creative solutions and tailored strategies that are tailored to the individual needs of our customers.</p>
                     </div>
                 </div>
                 <div className='grid md:grid-cols-3 gap-5 md:px-28'>

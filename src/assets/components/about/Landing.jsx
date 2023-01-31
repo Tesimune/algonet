@@ -8,13 +8,19 @@ function Landing() {
           <div className='grid md:grid-cols-2'>
             <div className='grid gap-3'>
               <div className='bg-gray-100 grid items-end p-5 pt-16 pb-9 md:pr-16 md:pl-36'>
-                <span className='text-5xl font-bold w-4/5'>About the Algonet Media</span>
+                <span className='text-5xl font-bold w-4/5'>Our Vision </span>
               </div>
               <div className='p-5 md:pl-36'>
-                <p className='text-lg'>Algonet Media is a one stop marketing agency that offers creative and professional digital marketing solutions. We help businesses to reach their target audiences through our effective and innovative marketing campaigns. Our services include SEO, social media marketing, email marketing, and content marketing.</p>
+                <p className='text-lg'>Here at Algonet, we believe in the power of digital marketing to help businesses reach their goals, 
+                  however big or small they may be. 
+                  We are a full-service digital marketing agency specializing in SEO, 
+                  content marketing, web design, email marketing, and more. 
+                </p>
               </div>
-              <div className='flex p-5 md:pl-36'>
-                <Link to='/' className='bg-red-600 p-3 text-white'>Let's connect</Link>
+              <div className='flex md:pl-36'>
+                <div className='flex items-center'>
+                  <Link to='/' className='bg-red-600 p-3 text-white'>Let's connect</Link>
+                </div>
               </div>
             </div>
             <div className='p-3 md:p-16'>

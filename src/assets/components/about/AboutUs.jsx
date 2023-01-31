@@ -8,9 +8,9 @@ function AboutUs() {
               <img src='/images/gif2.gif' className='rounded-md' alt='' />
             </div>
             <div className='grid md:col-span-2'>
-              <div className='flex flex-col justify-end items-end gap-5 p-2 md:p-9 md:text-right'>
-                <h2 className='text-5xl md:w-3/5'>About   the Algonet   Media</h2>
-                <p className='text-lg'>We also offer branding, web design and development services. Our team of experts will work closely with you to understand your business goals and objectives, and create a customized plan that will help you achieve your desired results. With our help, you can confidently take your business to the next level. Contact us today to learn more about our services!</p>
+              <div className='flex flex-col items-end gap-5 p-2 md:p-9 md:text-right'>
+                <h2 className='text-5xl md:w-3/5'>About Algonet   Media</h2>
+                <p className='text-lg'>Algonet is a digital marketing company with a passion for helping businesses succeed online. At algonet, your growth is our priority.</p>
               </div>
             </div>
         </div>

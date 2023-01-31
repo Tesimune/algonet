@@ -12,7 +12,7 @@ function ContactCard() {
           <div className='grid md:col-span-2'>
             <div className='flex flex-col gap-5 p-5 md:p-16 md:w-2/3'>
               <h2 className='text-5xl'>Ready for real results?</h2>
-              <span>Book a free Digital Marketing audit and get started with the best strategy</span>
+              <span>Book a free Digital Marketing audit and get started with the best strategy.</span>
               <div className='py-7'>
                 <Link to='/contact' className='bg-white border border-red-600 p-3 text-red-600'>Book Now</Link>
               </div>
