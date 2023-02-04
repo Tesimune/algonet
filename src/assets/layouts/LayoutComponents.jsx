@@ -6,14 +6,16 @@ import Navbar, { AltNavbar } from './Navbar'
 
 function LayoutComponents(props) {
   return (
-    <div className='bg-[url("/app/Slider.jpg")] w-full'>
-      <Navbar />
-      <Hambuger />
-      <Outlet />
-        <div className='min-h-screen'>
-          { props.children }
-        </div>
-      <Footer />
+    <div className='grid justify-center items-center'>
+      <div className='bg-[url("/app/Slider.jpg")] grid justify-center w-full lg:max-w-[1400px]'>
+        <Navbar />
+        <Hambuger />
+        <Outlet />
+          <div className='min-h-screen'>
+            { props.children }
+          </div>
+        <Footer />
+      </div>
     </div>
   )
 }
@@ -22,14 +24,16 @@ export default LayoutComponents
 
 export function AltLayoutComponents(props) {
   return ( 
-    <div>
-      <AltNavbar />
-      <Hambuger />
-      <Outlet />
-        <div className='min-h-screen pt-20 md:pt-0'>
-          { props.children }
-        </div>
-      <Footer />
+    <div className='grid justify-center items-center'>
+      <div className='grid justify-center w-full lg:max-w-[1400px]'>
+        <AltNavbar />
+        <Hambuger />
+        <Outlet />
+          <div className='min-h-screen pt-20 lg:pt-0'>
+            { props.children }
+          </div>
+        <Footer />
+      </div>
     </div>
    );
 }

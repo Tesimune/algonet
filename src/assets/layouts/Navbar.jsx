@@ -17,11 +17,11 @@ function Navbar() {
   }
   return (
     <>
-        <div className='bg-transparent flex justify-between items-center py-3 md:py-9 px-5 md:px-28 absolute w-full'>
+        <div className='bg-transparent flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute w-full lg:max-w-[1400px]'>
             <Link to='/'>
               <AppLogo />
             </Link>
-            <div className='hidden md:block'>
+            <div className='hidden lg:block'>
               <div className='flex gap-5 font-bold text-gray-50'>
                 <NavLink active='/'>
                   <Link to='/'>Home</Link>
@@ -40,8 +40,8 @@ function Navbar() {
                 </NavLink>
               </div>
             </div>
-            <Link to='/' className='bg-white border hidden md:block border-red-600 p-3 text-red-600'>Let's connect</Link>
-            <button onClick={Hambuger} className='text-white md:hidden'>
+            <Link to='/' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600'>Let's connect</Link>
+            <button onClick={Hambuger} className='text-white lg:hidden'>
               <GoThreeBars className='w-9 h-9' />
             </button>
         </div>
@@ -64,11 +64,11 @@ export function AltNavbar() {
   }
   return ( 
     <>
-      <div className='bg-white flex justify-between items-center py-3 md:py-9 px-5 md:px-28 absolute w-full'>
+      <div className='bg-white flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute w-full lg:max-w-[1400px]'>
         <Link to='/' className='flex'>
           <AppLogo />
         </Link>
-        <div className='hidden md:block'>
+        <div className='hidden lg:block'>
           <div className='flex gap-5 font-bold text-black'>
             <NavLink>
               <Link to='/'>Home</Link>
@@ -87,8 +87,8 @@ export function AltNavbar() {
             </NavLink>
           </div>
         </div>
-        <Link to='/contact' className='bg-white border hidden md:block border-red-600 p-3 text-red-600'>Let's connect</Link>
-        <button onClick={Hambuger} className='text-black md:hidden'>
+        <Link to='/contact' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600'>Let's connect</Link>
+        <button onClick={Hambuger} className='text-black lg:hidden'>
           <GoThreeBars className='w-9 h-9' />
         </button>
       </div>
