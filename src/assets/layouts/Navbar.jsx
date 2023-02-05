@@ -23,8 +23,8 @@ function Navbar() {
             </Link>
             <div className='hidden lg:block'>
               <div className='flex gap-5 font-bold text-gray-50'>
-                <NavLink active='/'>
-                  <Link to='/'>Home</Link>
+                <NavLink>
+                  <Link to='/' className='text-red-500 border-b-2 border-red-500'>Home</Link>
                 </NavLink>
                 <NavLink>
                   <Link to='/about'>About</Link>
@@ -74,16 +74,16 @@ export function AltNavbar() {
               <Link to='/'>Home</Link>
             </NavLink>
             <NavLink>
-              <Link to='/about'>About</Link>
+              <Link to='/about' active='/about'>About</Link>
             </NavLink>
             <NavLink>
-              <Link to='/works'>Works</Link>
+              <Link to='/works' active='/works'>Works</Link>
             </NavLink>
             <NavLink>
-              <Link to='/services'>Services</Link>
+              <Link to='/services' active='/services'>Services</Link>
             </NavLink>
             <NavLink>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/contact' active='/contact'>Contact</Link>
             </NavLink>
           </div>
         </div>

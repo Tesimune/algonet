@@ -13,8 +13,8 @@ function FullService() {
           </div>
           <span className='text-xl md:pr-28'>Lets tell your target audience about your business, services and products.</span>
         </div>
-        <div>
-            <img src='/app/socials.jpg' className='w-full' alt='' />
+        <div className='w-full md:h-[555px] '>
+            <img src='/images/Creative.gif' className='w-full h-full' alt='' />
         </div>
     </div>
   )

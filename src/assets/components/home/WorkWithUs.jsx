@@ -1,20 +1,12 @@
 import React from 'react'
 import { HiDatabase } from 'react-icons/hi'
-import { BsFillLightbulbFill } from 'react-icons/bs'
-import { AiOutlineSnippets } from 'react-icons/ai'
+import { BsFillLightbulbFill, BsCircleSquare } from 'react-icons/bs'
 
 function WorkWithUs() {
   return (
     <div className='bg-[url(/app/bglight.jpg)] py-28 px-5 md:px-28  text-black'>
       <div className='grid gap-5 md:w-1/2'>
         <span className='text-5xl font-bold'>Work with us</span>
-        <ul className='text-xl md:pr-28 pl-3 list-disc'>
-          <li>Give your brand a voice</li>
-          <li>Reach a wider audience</li>
-          <li>Generate leads</li>
-          <li>Create Ads that convert</li>
-          <li>Increase sales</li>
-        </ul>
         <span className='text-xl md:pr-28'>Lets tell your target audience about your business, services and products.</span>
       </div>
       <div className='grid md:grid-cols-3 gap-5 pt-9'>
@@ -38,7 +30,7 @@ function WorkWithUs() {
         </div>
         <div className='flex items-start'>
           <div className='pr-3'>
-            <AiOutlineSnippets className='flex items-start h-6 w-6' />
+            <BsCircleSquare className='flex items-start h-6 w-6' />
           </div>
           <div className='grid gap-3'>
             <label className='font-bold text-2xl'>Creativity</label>
@@ -46,8 +38,8 @@ function WorkWithUs() {
           </div>
         </div>
       </div>
-      <div className='w-full'>
-        <img src='/app/video.jpg' className='w-full' alt='' />
+      <div className='w-full md:h-[555px] mt-7 border-8 border-gray-50'>
+        <img src='/images/thumbnail.jpg' className='w-full h-full' alt='' />
       </div>
     </div>
   )

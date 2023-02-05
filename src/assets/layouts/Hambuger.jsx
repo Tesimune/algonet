@@ -4,7 +4,7 @@ import NavLink from '../components/NavLink'
 
 function Hambuger() {
   return (
-    <div id='HambugerBar' className='hidden md:hidden'>
+    <div id='HambugerBar' className='hidden lg:hidden'>
       <div className='flex justify-end pt-16 p-2'>
           <div className='grid gap-5 font-bold bg-white text-black w-1/2 p-5 rounded-lg shadow-lg absolute'>
               <NavLink>
