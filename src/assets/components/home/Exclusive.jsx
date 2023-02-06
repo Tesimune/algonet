@@ -6,7 +6,7 @@ function Exclusive() {
         <div className='grid md:grid-cols-5 gap-3'>
           <div className='grid md:col-span-2'>
             <div className='flex flex-col gap-5'>
-              <div className='md:h-[555px] md::w-[444px] border-8 border-gray-50'>
+              <div className='md:h-[550px] md:w-[450px] border-8 border-gray-50'>
                 <img src='/images/ex1.jpg' className='h-full w-fill' alt='item' />
               </div>
               <h1 className='text-2xl font-bold'>Virtual  Marketing </h1>
@@ -21,7 +21,7 @@ function Exclusive() {
 
           <div className='grid md:col-span-2 pt-20'>
             <div className='flex flex-col gap-5'>
-              <div className='md:h-[555px] md::w-[444px] border-8 border-gray-50'>
+              <div className='md:h-[550px] md:w-[450px] border-8 border-gray-50'>
                 <img src='/images/ex2.jpg' className='h-full w-fill' alt='item' />
               </div>
               <h1 className='text-2xl font-bold'>Copywriting</h1>
