@@ -17,14 +17,14 @@ function More() {
         </div>
         <div className='pt-5 lg:pt-0'>
           <div className='flex gap-3'>
-            <div className='border-8 lg:h-[400px] lg:w-[195px] border-gray-50 rounded-lg lg:mt-40'>
+            <div className='border-8 lg:h-[400px] lg:w-[180px] border-gray-50 rounded-lg lg:mt-40'>
               <img src='/images/al1.jpg' className='rounded-md h-full transition duration-700 grayscale hover:grayscale-0' alt='' />
             </div>
             <div className='grid lg:flex gap-3'>
-              <div className='border-8 lg:h-[400px] lg:w-[195px] border-gray-50 rounded-lg lg:mt-56'>
+              <div className='border-8 lg:h-[400px] lg:w-[180px] border-gray-50 rounded-lg lg:mt-56'>
                 <img src='/images/al2.jpg' className='rounded-md h-full transition duration-700 grayscale hover:grayscale-0' alt='' />
               </div>
-              <div className='border-8 lg:h-[400px] lg:w-[195px] border-gray-50 rounded-lg lg:mt-40'>
+              <div className='border-8 lg:h-[400px] lg:w-[180px] border-gray-50 rounded-lg lg:mt-40'>
                 <img src='/images/al3.jpg' className='rounded-md h-full transition duration-700 grayscale hover:grayscale-0' alt='' />
               </div>
             </div>

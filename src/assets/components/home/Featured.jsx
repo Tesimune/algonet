@@ -6,11 +6,11 @@ function Featured() {
     const content = document.querySelector('#content');
 
     function leftArrow() {
-        content.scrollLeft -= 90;
+        content.scrollLeft -= 50;
     };
 
     function rightArrow()  {
-        content.scrollLeft += 90;
+        content.scrollLeft += 50;
     };
 
   return (
@@ -29,43 +29,41 @@ function Featured() {
                 </button>
             </div>
         </div>
-        <div id='content' className='scroll overflow-x-auto'>
-            <div className='flex lg:grid-cols-4 gap-3'>
-                <div className='grid gap-2'>
-                    <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
-                        <img src='/images/carosel1.jpg' className='h-full w-full' alt='' />
-                    </div>
-                    <span className='text-xl'>Content Marketing for your brand</span>
-                    <span className='text-sm'>Content creation and design</span>
+        <div id='content' className='scroll overflow-x-auto flex lg:grid-cols-4 gap-3'>
+            <div className='grid gap-2'>
+                <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
+                    <img src='/images/carosel1.jpg' className='h-full w-full' alt='' />
                 </div>
-                <div className='grid gap-2'>
-                    <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
-                        <img src='/images/carosel2.jpg' className='h-full w-full' alt='' />
-                    </div>
-                    <span className='text-xl'>SEO and SEM for website</span>
-                    <span className='text-sm'>Social Media Marketing</span>
+                <span className='text-xl'>Content Marketing for your brand</span>
+                <span className='text-sm'>Content creation and design</span>
+            </div>
+            <div className='grid gap-2'>
+                <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
+                    <img src='/images/carosel2.jpg' className='h-full w-full' alt='' />
                 </div>
-                <div className='grid gap-2'>
-                    <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
-                        <img src='/images/carosel3.jpg' className='h-full w-full' alt='' />
-                    </div>
-                    <span className='text-xl'>Email Marketing</span>
-                    <span className='text-sm'>Ads managment</span>
+                <span className='text-xl'>SEO and SEM for website</span>
+                <span className='text-sm'>Social Media Marketing</span>
+            </div>
+            <div className='grid gap-2'>
+                <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
+                    <img src='/images/carosel3.jpg' className='h-full w-full' alt='' />
                 </div>
-                <div className='grid gap-2'>
-                    <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
-                        <img src='/images/carosel4.jpg' className='h-full w-full' alt='' />
-                    </div>
-                    <span className='text-xl'>Copy writing</span>
-                    <span className='text-sm'>And lots more...</span>
+                <span className='text-xl'>Email Marketing</span>
+                <span className='text-sm'>Ads managment</span>
+            </div>
+            <div className='grid gap-2'>
+                <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
+                    <img src='/images/carosel4.jpg' className='h-full w-full' alt='' />
                 </div>
-                <div className='grid gap-2'>
-                    <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
-                        <img src='/images/carosel5.jpg' className='h-full w-full' alt='' />
-                    </div>
-                    <span className='text-xl'>Copy writing</span>
-                    <span className='text-sm'>And lots more...</span>
+                <span className='text-xl'>Copy writing</span>
+                <span className='text-sm'>And lots more...</span>
+            </div>
+            <div className='grid gap-2'>
+                <div className='border-8 bored-gray-50 w-[300px] h-[400px]'>
+                    <img src='/images/carosel5.jpg' className='h-full w-full' alt='' />
                 </div>
+                <span className='text-xl'>Copy writing</span>
+                <span className='text-sm'>And lots more...</span>
             </div>
         </div>
     </div>
