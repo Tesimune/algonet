@@ -7,16 +7,16 @@ function Carosel() {
     <div className='grid lg:p-24 text-white'>
       <div className="relative overflow-hidden hidden lg:block">
         <div className="flex">
-          <div className="onethired m-4 w-[500px] hover:w-[500px] border-8 border-gray-50">
+          <div className="onethired m-4 w-[500px] border-8 border-gray-50 hover:w-[500px] transition-width duration-500 ease-in-out">
             <img className='h-[400px] w-full' src='/images/1.jpg' alt='' />
           </div>
-          <div className="onethired m-4 w-[270px] hover:w-[500px] border-8 border-gray-50">
+          <div className="onethired m-4 w-[270px] border-8 border-gray-50 hover:w-[500px] transition-width duration-500 ease-in-out">
             <img className='h-[400px] w-full' src='/images/2.jpg' alt='' />
           </div>
-          <div className="onethired m-4 w-[270px] hover:w-[500px] border-8 border-gray-50">
+          <div className="onethired m-4 w-[270px] border-8 border-gray-50 hover:w-[500px] transition-width duration-500 ease-in-out">
             <img className='h-[400px] w-full' src='/images/3.jpg' alt='' />
           </div>
-          <div className="onethired m-4 w-[270px] hover:w-[500px] border-8 border-gray-50">
+          <div className="onethired m-4 w-[270px] border-8 border-gray-50 hover:w-[500px] transition-width duration-500 ease-in-out">
             <img className='h-[400px] w-full' src='/images/4.jpg' alt='' />
           </div>
         </div>
