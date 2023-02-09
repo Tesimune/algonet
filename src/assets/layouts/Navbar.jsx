@@ -17,7 +17,7 @@ function Navbar() {
   }
   return (
     <>
-        <div className='bg-transparent flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute w-full lg:max-w-[1400px]'>
+        <div className='bg-transparent flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute z-50 w-full lg:max-w-[1400px]'>
             <Link to='/'>
               <AppLogo />
             </Link>
@@ -40,7 +40,9 @@ function Navbar() {
                 </NavLink>
               </div>
             </div>
-            <Link to='/' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600'>Let's connect</Link>
+            <Link to='/contact' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600 hover:bg-red-500 hover:text-white transition duration-500 ease-in-out'>
+              Let's connect
+            </Link>
             <button onClick={Hambuger} className='text-white lg:hidden'>
               <GoThreeBars className='w-9 h-9' />
             </button>
@@ -64,7 +66,7 @@ export function AltNavbar() {
   }
   return ( 
     <>
-      <div className='bg-white flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute w-full lg:max-w-[1400px]'>
+      <div className='bg-white flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute z-50 w-full lg:max-w-[1400px]'>
         <Link to='/' className='flex'>
           <AppLogo />
         </Link>
@@ -87,7 +89,9 @@ export function AltNavbar() {
             </NavLink>
           </div>
         </div>
-        <Link to='/contact' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600'>Let's connect</Link>
+        <Link to='/contact' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600 hover:bg-red-500 hover:text-white  transition duration-500 ease-in-out'>
+          Let's connect
+        </Link>
         <button onClick={Hambuger} className='text-black lg:hidden'>
           <GoThreeBars className='w-9 h-9' />
         </button>

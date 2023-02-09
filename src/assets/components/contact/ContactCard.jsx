@@ -30,7 +30,9 @@ function ContactCard() {
                 <h2 className='text-5xl'>Ready for real results?</h2>
                 <span>Book a free Digital Marketing audit and get started with the best strategy.</span>
                 <div className='py-7'>
-                  <Link to='/contact' className='bg-white border border-red-600 p-3 text-red-600'>Book Now</Link>
+                  <Link to='/contact' className='bg-white border border-red-600 p-3 text-red-600 hover:bg-red-500 hover:text-white  transition duration-500 ease-in-out'>
+                    Contact Us
+                  </Link>
                 </div>
               </div>
             </div>

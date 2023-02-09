@@ -16,7 +16,7 @@
   }
 
 .serviceclip {
-  clip-path: polygon(45% 45%, 100% 0%, 100% 100%, 0 100%, 0 45%);
+  clip-path: polygon(35% 35%, 100% 0%, 100% 100%, 0 100%, 0 35%);
 }
 
   .relative {
