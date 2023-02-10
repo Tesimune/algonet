@@ -16,7 +16,7 @@ function App() {
     <>
       <LoadingEffect>
         <LayoutComponents>
-          <div className='bg-slate-900 w-full pt-20'>
+          <div className='bg-algonet-1 w-full pt-20'>
             <Landing />
             <Carosel />
             <More />

@@ -5,6 +5,15 @@ import TextAnimation from '../TextAnimation'
 function Landing() {
   return (
     <div>
+      <div className="w-full h-full absolute top-0 left-0 z-10">
+        <div className="absolute right-0 w-2/4 ml-auto pt-64 flex justify-around">
+          <div className='shadow-effect' />
+          <div className='shadow-effect two' />
+          <div className='shadow-effect three' />
+          <div className='shadow-effect four' />
+        </div>
+      </div>
+
       <section className='grid justify-start md:w-2/3 gap-5 py-16 px-5 md:px-28 text-white'>
         <span className='text-4xl md:text-5xl'>Connect with us to help</span>
         <div className='text-4xl md:text-5xl'>

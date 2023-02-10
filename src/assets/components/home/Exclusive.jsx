@@ -3,8 +3,14 @@ import React from 'react'
 function Exclusive() {
   return (
     <div className='bg-[url(/app/bgdark.jpg)] pt-24 pb-9 px-5 md:px-28 text-white'>
+        <div className="absolute right-0 w-2/4 ml-auto pt-40 z-10 flex justify-around">
+          <div className='shadow-effect' />
+          <div className='shadow-effect two' />
+          <div className='shadow-effect three' />
+          <div className='shadow-effect four' />
+        </div>
         <div className='grid md:grid-cols-5 gap-3'>
-          <div className='grid justify-center md:col-span-2'>
+          <div className='grid justify-center md:col-span-2 z-30'>
             <div className='flex flex-col gap-5'>
               <div className='h-80 w-80 lg:h-[490px] lg:w-[450px] border-8 border-gray-50'>
                 <img src='/images/ex2.jpg' className='h-full w-full' alt='item' />
@@ -15,11 +21,11 @@ function Exclusive() {
             </div>
           </div>
 
-          <div className='grid items-center break-normal md:-rotate-90'>
+          <div className='grid items-center break-normal md:-rotate-90 z-30'>
             <p className="flex text-5xl font-bold md:break-normal md:w-[700px]">Our Exclusive Services</p>
           </div>
 
-          <div className='grid justify-center md:col-span-2 pt-20'>
+          <div className='grid justify-center md:col-span-2 pt-20 z-30'>
             <div className='flex flex-col gap-5'>
               <div className='h-80 w-80 lg:h-[490px] lg:w-[450px] border-8 border-gray-50'>
                 <img src='/images/ex1.jpg' className='h-full w-full' alt='item' />

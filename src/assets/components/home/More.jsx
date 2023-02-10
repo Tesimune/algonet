@@ -4,6 +4,12 @@ import TextAnimation from '../TextAnimation'
 function More() {
   return (
     <div className='bg-[url("/app/bgdark.jpg")] py-20 px-5 lg:px-28 text-white'>
+      <div className="absolute right-0 w-2/4 ml-auto pt-64 flex justify-around">
+        <div className='shadow-effect' />
+        <div className='shadow-effect two' />
+        <div className='shadow-effect three' />
+        <div className='shadow-effect four' />
+      </div>
       <div className='grid lg:grid-cols-2'>
         <div className='grid gap-5 text-white'>
           <span className='text-5xl'>Strategy, Design &</span>
