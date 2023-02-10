@@ -11,13 +11,12 @@ import LayoutComponents from '../assets/layouts/LayoutComponents';
 import LoadingEffect from '../assets/components/LoadingEffect'
 
 function App() {
-
   
   return (
     <>
       <LoadingEffect>
         <LayoutComponents>
-          <div className='bg-[url("/app/Slider.jpg")] w-full pt-20'>
+          <div className='bg-slate-900 w-full pt-20'>
             <Landing />
             <Carosel />
             <More />

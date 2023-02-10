@@ -72,4 +72,37 @@
     background-color: hwb(0 99% 1% / 0);
   }
   
-  
+
+.shadow-effect {
+  @apply w-0 h-0 rounded-full;
+  box-shadow: 0 0 5px #161245;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+.two{
+  box-shadow: 0 0 5px #054538;
+  animation-name: glow-two;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 100px 100px #200b41;
+  }
+  to {
+    box-shadow: 0 0 150px 150px #054538;
+  }
+}
+
+@keyframes glow-two {
+  from {
+    box-shadow: 0 0 100px 100px #054538;
+  }
+  to {
+    box-shadow: 0 0 150px 150px #3a1863;
+  }
+}
+
+
+.myslide {
+  @apply w-[270px] m-4 border-8 border-gray-50 duration-500 ease-in-out rounded-lg;
+}
