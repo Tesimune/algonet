@@ -9,18 +9,18 @@ function Carosel() {
 
     mrmans[0].style.width = '500px';
 
-    mrmans.forEach(element => {
+    mrtext.forEach(element => {
       element.onmouseover = () => {
         mrmans[0].style.width = '270px';
         element.style.width = '500px';
         mrtext[0].classList.add('-rotate-90')
-        mrtext.element.classList.remove('-rotate-90');
+        element.classList.remove('-rotate-90');
       }
       element.onmouseout = () => {
         element.style.width = '270px';
         mrmans[0].style.width = '500px';
         mrtext[0].classList.remove('-rotate-90')
-        mrtext.element.classList.add('-rotate-90');
+        element.classList.add('-rotate-90');
       }
     });
     
