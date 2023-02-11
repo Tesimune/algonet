@@ -1,17 +1,25 @@
-import React from 'react'
+import { useEffect } from 'react'
 import { IoIosArrowDropleftCircle, IoIosArrowDroprightCircle } from 'react-icons/io'
 
 function Featured() {
 
-    const content = document.querySelector('#content');
 
-    function leftArrow() {
-        content.scrollLeft -= 50;
-    };
+    useEffect(() => {
+        const content = document.querySelector('#content');
+        const leftArrow = document.querySelector('#leftArrow');
+        const rightArrow = document.querySelector('#rightArrow');
+    
 
-    function rightArrow()  {
-        content.scrollLeft += 50;
-    };
+        leftArrow.addEventListener("click", function() {
+            content.scrollLeft -= 50;
+        });
+
+          rightArrow.addEventListener("click", function() {
+            content.scrollLeft += 50;
+        });
+
+     }, [])
+
 
   return (
     <div className='grid gap-9 bg-[url(/app/bgdark.jpg)] py-20 px-5 md:px-0 md:pl-28 text-white'>
@@ -27,10 +35,10 @@ function Featured() {
                 <span className='text-xl'>Branding & Strategy  +  Lets tell your target audience about your business, services and products.</span>
             </div>
             <div className='flex justify-end gap-2 items-end pr-9'>
-                <button onClick={leftArrow}>
+                <button id='leftArrow'>
                     <IoIosArrowDropleftCircle className='h-7 w-7'/>
                 </button>
-                <button onClick={rightArrow}>
+                <button id='rightArrow'>
                     <IoIosArrowDroprightCircle className='h-7 w-7'/>
                 </button>
             </div>
