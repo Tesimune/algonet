@@ -38,42 +38,42 @@ function Featured() {
         <div id='content' className='scroll overflow-x-auto flex lg:grid-cols-4 gap-5 z-30'>
             <div className='grid gap-2'>
                 <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
-                    <img src='/images/carosel1.jpg' className='h-full w-full' alt='' />
+                    <img src='/images/carosel1.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
                 <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
-                    <img src='/images/carosel2.jpg' className='h-full w-full' alt='' />
+                    <img src='/images/carosel2.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Content</span>
                 <span className='text-sm'>Branding</span>
             </div>
             <div className='grid gap-2'>
                 <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
-                    <img src='/images/carosel4.jpg' className='h-full w-full' alt='' />
+                    <img src='/images/carosel4.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
                 <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
-                    <img src='/images/carosel3.jpg' className='h-full w-full' alt='' />
+                    <img src='/images/carosel3.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
                 <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
-                    <img src='/images/carosel5.jpg' className='h-full w-full' alt='' />
+                    <img src='/images/carosel5.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
                 <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
-                    <img src='/images/carosel6.jpg' className='h-full w-full' alt='' />
+                    <img src='/images/carosel6.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>

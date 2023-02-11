@@ -14,7 +14,7 @@ function FullService() {
           <span className='text-xl md:pr-28'>Lets tell your target audience about your business, services and products.</span>
         </div>
         <div className='w-full md:h-[475px] '>
-            <img src='/images/digital.png' className='w-full h-full shadow-2xl' alt='' />
+            <img src='/images/digital.png' className='object-cover w-full h-full shadow-2xl' alt='' />
         </div>
     </div>
   )

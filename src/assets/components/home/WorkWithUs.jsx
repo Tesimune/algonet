@@ -39,7 +39,7 @@ function WorkWithUs() {
         </div>
       </div>
       <div className='w-full md:h-[475px] mt-9 border-8 border-gray-50 shadow-2xl'>
-        <img src='/images/thumbnail.jpg' className='w-full h-full' alt='' />
+        <img src='/images/thumbnail.jpg' className='object-cover w-full h-full' alt='' />
       </div>
     </div>
   )
