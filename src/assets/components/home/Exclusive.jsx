@@ -11,8 +11,8 @@ function Exclusive() {
       </div>
       <div className='grid md:grid-cols-5 gap-9 md:gap-3'>
         <div className='grid justify-center md:col-span-2 z-30'>
-          <div className='flex flex-col gap-5 w-80 lg:w-[400px]'>
-            <div className='h-80 w-80 lg:h-[500px] lg:w-[400px] border-8 border-gray-50'>
+          <div className='flex flex-col gap-5'>
+            <div className='h-80 lg:h-[500px] w-full border-8 border-gray-50'>
               <img src='/images/ex2.jpg' className='object-cover h-full w-full' alt='item' />
             </div>
             <h1 className='text-2xl font-bold'>Virtual  Marketing </h1>
@@ -22,12 +22,12 @@ function Exclusive() {
         </div>
 
         <div className='grid items-center break-normal md:-rotate-90 z-30'>
-          <p className="flex text-3xl md:text-5xl font-bold md:break-normal md:w-[700px]">Our Exclusive Services</p>
+          <p className="flex text-xl md:text-5xl font-bold md:break-normal md:w-[700px]">Our Exclusive Services</p>
         </div>
 
         <div className='grid justify-center md:col-span-2 md:pt-20 z-30'>
-          <div className='flex flex-col gap-5 w-80 lg:w-[400px]'>
-            <div className='h-80 w-80 lg:h-[500px] lg:w-[400px] border-8 border-gray-50'>
+          <div className='flex flex-col gap-5'>
+            <div className='h-80 lg:h-[500px] w-full border-8 border-gray-50'>
               <img src='/images/ex1.jpg' className='object-cover h-full w-full' alt='item' />
             </div>
             <h1 className='text-2xl font-bold'>Copywriting</h1>
