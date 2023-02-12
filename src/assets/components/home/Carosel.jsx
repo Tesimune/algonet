@@ -88,17 +88,29 @@ function Carosel() {
       </div>
       <div className="scroll flex overflow-x-auto lg:hidden">
         <div className="flex gap-3">
-          <div className="myslide m-4 w-80 border-8 border-gray-50 rounded-md">
+          <div className="myslide m-4 w-80 border-8 relative border-gray-50 rounded-md">
             <img className='object-cover h-[400px] w-full' src='/images/1.jpg' alt='' />
+            <div className='mrtext absolute bottom-9 p-16'>
+              <span className='flex justify-center items-center text-4xl font-bold'>Branding</span>
+            </div>
           </div>
-          <div className="myslide m-4 w-80 border-8 border-gray-50 rounded-md">
+          <div className="myslide m-4 w-80 border-8 relative border-gray-50 rounded-md">
             <img className='object-cover h-[400px] w-full' src='/images/2.jpg' alt='' />
+            <div className='mrtext absolute bottom-9 p-16'>
+              <span className='flex justify-center items-center text-4xl font-bold'>Carosel</span>
+            </div>
           </div>
-          <div className="myslide m-4 w-80 border-8 border-gray-50 rounded-md">
+          <div className="myslide m-4 w-80 border-8 relative border-gray-50 rounded-md">
             <img className='object-cover h-[400px] w-full' src='/images/3.jpg' alt='' />
+            <div className='mrtext absolute bottom-9 p-16'>
+              <span className='flex justify-center items-center text-4xl font-bold'>Strategy</span>
+            </div>
           </div>
-          <div className="myslide m-4 w-80 border-8 border-gray-50 rounded-md">
+          <div className="myslide m-4 w-80 border-8 relative border-gray-50 rounded-md">
             <img className='object-cover h-[400px] w-full' src='/images/4.jpg' alt='' />
+            <div className='mrtext absolute bottom-9 p-16'>
+              <span className='flex justify-center items-center text-4xl font-bold'>Creatvity</span>
+            </div>
           </div>
         </div>
       </div>

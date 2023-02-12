@@ -11,19 +11,19 @@ function Featured() {
     
 
         leftArrow.addEventListener("click", function() {
-            content.scrollLeft -= 50;
+            content.scrollLeft -= 100;
         });
 
           rightArrow.addEventListener("click", function() {
-            content.scrollLeft += 50;
+            content.scrollLeft += 100;
         });
 
      }, [])
 
 
   return (
-    <div className='grid gap-9 bg-[url(/app/bgdark.jpg)] py-20 px-5 md:px-0 md:pl-28 text-white'>
-        <div className="absolute right-0 w-2/4 ml-auto pt-64 z-10 flex justify-around">
+    <div className='grid gap-20 bg-[url(/app/bgdark.jpg)] py-20 px-5 md:px-0 md:pl-28 text-white relative'>
+        <div className="absolute right-7 w-2/4 ml-auto pt-64 flex justify-around">
             <div className='shadow-effect' />
             <div className='shadow-effect two' />
             <div className='shadow-effect three' />
@@ -31,10 +31,10 @@ function Featured() {
         </div>
         <div className='grid md:flex gap-5 justify-between z-30'>
             <div className='grid gap-5 md:w-1/2'>
-                <span className='text-5xl'>Our Featured Work</span>
-                <span className='text-xl'>Branding & Strategy  +  Lets tell your target audience about your business, services and products.</span>
+                <span className='text-2xl md:text-5xl'>Our Featured Work</span>
+                <span className='text-md md:text-xl'>Branding & Strategy  +  Lets tell your target audience about your business, services and products.</span>
             </div>
-            <div className='flex justify-end gap-2 items-end pr-9'>
+            <div className='flex justify-end gap-2 items-end pt-9 pr-9'>
                 <button id='leftArrow'>
                     <IoIosArrowDropleftCircle className='h-7 w-7'/>
                 </button>
