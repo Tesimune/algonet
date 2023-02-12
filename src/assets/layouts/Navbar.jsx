@@ -6,6 +6,16 @@ import AppLogo from '../components/AppLogo';
 
 function Navbar() {
 
+  const MyNavLink = ({href, label}) => {
+    const isActive = location.pathname == href;
+    const myStyle = 'text-red-500 border-b-2 border-red-500';
+   return  (
+    <NavLink>
+      <Link to={href} className={isActive ? myStyle : null}>{label}</Link>
+    </NavLink>
+   )
+  }
+
   function Hambuger(){
     const HambugerBar = document.querySelector('#HambugerBar')
     HambugerBar.classList.contains('hidden') ? (
@@ -24,21 +34,11 @@ function Navbar() {
             </Link>
             <div className='hidden lg:block'>
               <div className='flex gap-5 font-bold text-gray-50'>
-                <NavLink>
-                  <Link to='/' className='text-red-500 border-b-2 border-red-500'>Home</Link>
-                </NavLink>
-                <NavLink>
-                  <Link to='/about'>About</Link>
-                </NavLink>
-                <NavLink>
-                  <Link to='/works'>Works</Link>
-                </NavLink>
-                <NavLink>
-                  <Link to='/services'>Services</Link>
-                </NavLink>
-                <NavLink>
-                  <Link to='/contact'>Contact</Link>
-                </NavLink>
+                <MyNavLink href="/" label="Home" />
+                <MyNavLink href="/about" label="About" />
+                <MyNavLink href="/works" label="Works" />
+                <MyNavLink href="/services" label="Services" />
+                <MyNavLink href="/contact" label="Contact" />
               </div>
             </div>
             <Link to='/contact' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600 hover:bg-red-500 hover:text-white transition duration-500 ease-in-out'>
@@ -83,9 +83,7 @@ export function AltNavbar() {
         </Link>
         <div className='hidden lg:block'>
           <div className='flex gap-5 font-bold text-black'>
-            <NavLink>
-              <Link to='/'>Home</Link>
-            </NavLink>
+            <MyNavLink href="/" label="Home" />
             <MyNavLink href="/about" label="About" />
             <MyNavLink href="/works" label="Works" />
             <MyNavLink href="/services" label="Services" />

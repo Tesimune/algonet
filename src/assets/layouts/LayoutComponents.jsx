@@ -8,8 +8,8 @@ function LayoutComponents(props) {
   return (
     <div className='grid justify-center items-center'>
       <div className='grid justify-center w-full lg:max-w-[1400px]'>
-        <Navbar />
         <Hambuger />
+        <Navbar />
         <Outlet />
           <div className='min-h-screen'>
             { props.children }
