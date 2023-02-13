@@ -20,8 +20,8 @@ function Landing() {
           </TextAnimation>
         </div>
         <div className='grid gap-1 z-30'>
-          <span className='text-md md:text-xl'>Book a consultation session with one of our expert,</span>
-          <span className='text-md md:text-xl'>and we will find a tailored solution for you.</span>
+          <span className='text-md md:text-xl'>Get the expertise and creativity </span>
+          <span className='text-md md:text-xl'>needed to propel your business to the next level.</span>
         </div>
         <div className='pt-5 z-30'>
           <Link to='/contact' className='bg-red-500 text-white border-red-600 text-sm py-3 px-5 hover:bg-white hover:text-red-500 transition duration-500 ease-in-out'>

@@ -11,7 +11,7 @@ function FullService() {
               management
             </TextAnimation>
           </div>
-          <span className='text-sm md:text-xl md:pr-28'>Lets tell your target audience about your business, services and products.</span>
+          <span className='text-sm md:text-xl md:pr-28'>Algonet provides first-class digital strategies for successful online campaign. We have the knowledge and passion to increase your brand awareness and reach even more customers.</span>
         </div>
         <div className='w-full h-80 md:h-[475px] mt-16 border-8 border-gray-50 shadow-2xl'>
             <img src='/images/digital.png' className='object-cover w-full h-full shadow-2xl' alt='' />
