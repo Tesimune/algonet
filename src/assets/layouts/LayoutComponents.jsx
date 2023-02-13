@@ -7,7 +7,7 @@ import Navbar, { AltNavbar } from './Navbar'
 function LayoutComponents(props) {
   return (
     <div className='grid justify-center items-center'>
-      <div className='grid justify-center w-full lg:max-w-[1400px]'>
+      <div className='layout-container'>
         <Hambuger />
         <Navbar />
         <Outlet />
@@ -25,7 +25,7 @@ export default LayoutComponents
 export function AltLayoutComponents(props) {
   return ( 
     <div className='grid justify-center items-center'>
-      <div className='grid justify-center w-full lg:max-w-[1400px]'>
+      <div className='layout-container'>
         <AltNavbar />
         <Hambuger />
         <Outlet />
