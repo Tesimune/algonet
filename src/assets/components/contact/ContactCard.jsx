@@ -22,7 +22,9 @@ function ContactCard() {
                 <h2 className='text-3xl'>Ready for real results?</h2>
                 <span>Book a free Digital Marketing audit and get started with the best strategy.</span>
                 <div className='pt-7'>
-                  <Link to='/contact' className='bg-white border border-red-600 p-3 text-red-600'>Book Now</Link>
+                  <Link to='/contact' className='bg-red-500 text-white border-red-600 text-sm py-3 px-5 hover:bg-white hover:text-red-500 transition duration-500 ease-in-out'>
+                    Book Now
+                  </Link>
                 </div>
               </div>
             </div>
@@ -36,8 +38,8 @@ function ContactCard() {
                 <h2 className='text-5xl'>Ready for real results?</h2>
                 <span>Book a free Digital Marketing audit and get started with the best strategy.</span>
                 <div className='py-7'>
-                  <Link to='/contact' className='bg-white border border-red-600 p-3 text-red-600 hover:bg-red-500 hover:text-white  transition duration-500 ease-in-out'>
-                    Contact Us
+                  <Link to='/contact' className='bg-red-500 text-white border-red-600 text-sm py-3 px-5 hover:bg-white hover:text-red-500 transition duration-500 ease-in-out'>
+                    Book Now
                   </Link>
                 </div>
               </div>

@@ -12,7 +12,7 @@ function Landing() {
         <div className='shadow-effect four' />
       </div>
 
-      <section className='grid justify-start md:w-2/3 gap-5 py-16 px-5 md:px-28 text-white'>
+      <section className='grid justify-start md:w-2/3 gap-3 md:gap-5 py-16 px-5 md:px-28 text-white'>
         <span className='text-2xl md:text-5xl z-30'>Connect with us to help</span>
         <div className='text-2xl md:text-5xl z-30'>
           <TextAnimation>

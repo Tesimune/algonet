@@ -34,53 +34,53 @@ function Featured() {
                 <span className='text-2xl md:text-5xl'>Our Featured Work</span>
                 <span className='text-md md:text-xl'>Branding & Strategy  +  Lets tell your target audience about your business, services and products.</span>
             </div>
-            <div className='flex justify-end gap-2 items-end pt-9 pr-9'>
+            <div className='flex justify-end gap-2 items-end pt-16 pr-9'>
                 <button id='leftArrow'>
-                    <IoIosArrowDropleftCircle className='h-7 w-7'/>
+                    <IoIosArrowDropleftCircle className='h-9 w-9'/>
                 </button>
                 <button id='rightArrow'>
-                    <IoIosArrowDroprightCircle className='h-7 w-7'/>
+                    <IoIosArrowDroprightCircle className='h-9 w-9'/>
                 </button>
             </div>
         </div>
-        <div id='content' className='scroll overflow-x-auto flex lg:grid-cols-4 gap-5 z-30'>
+        <div id='content' className='scroll overflow-x-auto flex lg:grid-cols-4 gap-5 px-9 z-30'>
             <div className='grid gap-2'>
-                <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
+                <div className='border-8 bored-gray-50 w-[330px] h-[390px] rounded-lg'>
                     <img src='/images/carosel1.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
-                <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
+                <div className='border-8 bored-gray-50 w-[330px] h-[390px] rounded-lg'>
                     <img src='/images/carosel2.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Content</span>
                 <span className='text-sm'>Branding</span>
             </div>
             <div className='grid gap-2'>
-                <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
+                <div className='border-8 bored-gray-50 w-[330px] h-[390px] rounded-lg'>
                     <img src='/images/carosel4.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
-                <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
+                <div className='border-8 bored-gray-50 w-[330px] h-[390px] rounded-lg'>
                     <img src='/images/carosel3.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
-                <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
+                <div className='border-8 bored-gray-50 w-[330px] h-[390px] rounded-lg'>
                     <img src='/images/carosel5.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>
                 <span className='text-sm'>Content</span>
             </div>
             <div className='grid gap-2'>
-                <div className='border-8 bored-gray-50 w-[330px] h-[400px] rounded-lg'>
+                <div className='border-8 bored-gray-50 w-[330px] h-[390px] rounded-lg'>
                     <img src='/images/carosel6.jpg' className='object-cover h-full w-full' alt='' />
                 </div>
                 <span className='text-2xl font-bold'>Branding</span>

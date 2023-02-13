@@ -17,7 +17,7 @@ function Landing() {
                   content marketing, web design, email marketing, and more. 
                 </p>
               </div>
-              <div className='flex md:pl-36'>
+              <div className='flex p-5 md:p-0 md:pl-36'>
                 <div className='flex items-center'>
                   <Link to='/' className='bg-red-600 p-3 text-white'>Let's connect</Link>
                 </div>

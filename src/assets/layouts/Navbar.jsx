@@ -28,7 +28,7 @@ function Navbar() {
   
   return (
     <>
-        <div className='bg-transparent flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute z-50 w-full lg:max-w-[1400px]'>
+        <div className='bg-transparent flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute z-40 w-full lg:max-w-[1400px]'>
             <Link to='/'>
               <AppLogo />
             </Link>
@@ -41,7 +41,7 @@ function Navbar() {
                 <MyNavLink href="/contact" label="Contact" />
               </div>
             </div>
-            <Link to='/contact' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600 hover:bg-red-500 hover:text-white transition duration-500 ease-in-out'>
+            <Link to='/contact' className='bg-red-500 text-white border-red-600 text-sm py-3 px-5 hidden lg:block hover:bg-white hover:text-red-500 transition duration-500 ease-in-out'>
               Let's connect
             </Link>
             <button onClick={Hambuger} className='text-white lg:hidden'>
@@ -77,7 +77,7 @@ export function AltNavbar() {
   }
   return ( 
     <>
-      <div className='bg-white flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute z-50 w-full lg:max-w-[1400px]'>
+      <div className='bg-white flex justify-between items-center py-3 lg:py-9 px-5 lg:px-28 absolute z-40 w-full lg:max-w-[1400px]'>
         <Link to='/' className='flex'>
           <AppLogo />
         </Link>
@@ -90,7 +90,7 @@ export function AltNavbar() {
             <MyNavLink href="/contact" label="Contact" />
           </div>
         </div>
-        <Link to='/contact' className='bg-white border hidden lg:block border-red-600 p-3 text-red-600 hover:bg-red-500 hover:text-white  transition duration-500 ease-in-out'>
+        <Link to='/contact' className='bg-red-500 text-white border-red-600 text-sm py-3 px-5 hidden lg:block hover:bg-white hover:text-red-500 transition duration-500 ease-in-out'>
           Let's connect
         </Link>
         <button onClick={Hambuger} className='text-black lg:hidden'>

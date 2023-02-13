@@ -25,13 +25,13 @@ function More() {
         </div>
         <div className='scroll flex overflow-x-auto pt-5 lg:pt-0 z-30'>
           <div className='flex gap-3'>
-            <div className='border-8 h-[400px] w-[180px] border-gray-50 rounded-lg lg:mt-48'>
+            <div className='border-8 h-[370px] w-[180px] border-gray-50 rounded-lg lg:mt-48'>
               <img src='/images/al1.jpg' className='object-cover rounded-md h-full transition duration-0 grayscale hover:grayscale-0' alt='' />
             </div>
-            <div className='border-8 h-[400px] w-[180px] border-gray-50 rounded-lg lg:mt-56'>
+            <div className='border-8 h-[370px] w-[180px] border-gray-50 rounded-lg lg:mt-56'>
               <img src='/images/al2.jpg' className='object-cover rounded-md h-full transition duration-0 grayscale hover:grayscale-0' alt='' />
             </div>
-            <div className='border-8 h-[400px] w-[180px] border-gray-50 rounded-lg lg:mt-40'>
+            <div className='border-8 h-[370px] w-[180px] border-gray-50 rounded-lg lg:mt-40'>
               <img src='/images/al3.jpg' className='object-cover rounded-md h-full transition duration-0 grayscale hover:grayscale-0' alt='' />
             </div>
           </div>

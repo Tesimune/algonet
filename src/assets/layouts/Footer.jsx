@@ -38,7 +38,7 @@ function Footer() {
           </div>
         </section>
 
-        <section className='grid md:col-span-2 md:grid-cols-4 gap-5 p-16 border-t-4 md:border-t-0'>
+        <section className='grid md:col-span-2 grid-cols-2 md:grid-cols-4 gap-5 p-5 md:p-16 border-t-4 md:border-t-0'>
           <div>
             <div className='grid gap-3'>
               <label className='font-bold text-xl'>About</label>

@@ -3,9 +3,9 @@ import TextAnimation from '../TextAnimation'
 
 function Form() {
   return (
-    <div>
+    <div className='bg-white md:bg-transparent'>
         <img src='/images/pagetop.jpg' alt='top' />
-        <div className='grid md:grid-cols-2 gap-3 pt-9 pb-28 px-3 md:px-28'>
+        <div className='grid md:grid-cols-2 gap-3 py-16 px-3 md:px-28'>
             <div className='p-5'>
                 <h1 className='text-5xl font-bold'>Contact Us</h1>
                 <p className='text-xl pt-7'>What do you have in mind?</p>
