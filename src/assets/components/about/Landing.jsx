@@ -24,7 +24,7 @@ function Landing() {
               </div>
             </div>
             <div className='p-3 md:p-16'>
-              <img src='/images/Group.jpg' className='h-96' alt='top' />
+              <img src='/images/Group.jpg' className='lg:h-96' alt='top' />
             </div>
         </div>
     </div>

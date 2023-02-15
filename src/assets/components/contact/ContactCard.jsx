@@ -26,7 +26,7 @@ function ContactCard() {
         </div>
         <div className='grid lg:hidden'>
           <div className='grid bg-slate-900 text-white rounded-lg z-30'>
-            <img src='/images/contacts.gif' className='px-2 pt-2 h-80 rounded-lg' alt='' />
+            <img src='/images/contacts.gif' className='px-2 pt-2 h-80 w-full rounded-lg' alt='' />
             <div className='grid'>
               <div className='grid gap-5 p-7'>
                 <h2 className='text-5xl'>Ready for real results?</h2>
