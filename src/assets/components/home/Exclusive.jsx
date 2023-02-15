@@ -22,7 +22,7 @@ function Exclusive() {
         </div>
 
         <div className='grid items-center break-normal md:-rotate-90 z-30'>
-          <p className="flex text-xl md:text-5xl font-bold md:break-normal md:w-[700px]">Our Exclusive Services</p>
+          <p className="flex text-3xl md:text-5xl font-bold md:break-normal md:w-[700px]">Exclusive Services</p>
         </div>
 
         <div className='grid justify-center md:col-span-2 md:pt-20 z-30'>
