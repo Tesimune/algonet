@@ -4,7 +4,7 @@ import { BsFillLightbulbFill, BsCircleSquare } from 'react-icons/bs'
 
 function WorkWithUs() {
   return (
-    <div className='bg-[url(/app/bglight.jpg)] py-28 px-5 md:px-28 text-black'>
+    <div className='bg-white lg:bg-[url(/app/bglight.jpg)] pt-28 px-5 md:px-28 text-black'>
       <div className='grid gap-5 md:w-1/2'>
         <span className='text-5xl font-bold'>Work with us</span>
         <span className='text-xl md:pr-28'>Lets tell your target audience about your business, services and products.</span>

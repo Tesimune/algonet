@@ -3,7 +3,7 @@ import TextAnimation from '../TextAnimation'
 
 function More() {
   return (
-    <div className='bg-[url("/app/bgdark.jpg")] py-20 px-5 lg:px-28 text-white relative'>
+    <div className='bg-algonet-1 lg:bg-[url("/app/bgdark.jpg")] py-20 px-5 lg:px-28 text-white relative'>
       
       <div className="absolute right-7 w-2/4 ml-auto pt-64 flex justify-around">
         <div className='shadow-effect' />

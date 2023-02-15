@@ -6,7 +6,7 @@ function Landing() {
       <img src='/images/pagetop.jpg' alt='top' />
       <div className='grid md:grid-cols-3 m-3 md:m-28 bg-slate-900 text-white rounded-lg'>
         <div className='grid md:col-span-1 justify-center items-center p-5'>
-          <img src='/images/gif.gif' className='h-full w-full rounded-md' alt='' />
+          <img src='/images/gif.gif' className='object-cover h-64 w-80 rounded-md' alt='' />
         </div>
         <div className='grid md:col-span-2'>
           <div className='flex flex-col gap-5 p-5 md:p-9 md:w-2/3'>

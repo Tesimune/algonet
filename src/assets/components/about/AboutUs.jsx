@@ -5,7 +5,7 @@ function AboutUs() {
     <div className='py-16 px-2 md:px-28 '>
         <div className='grid md:grid-cols-3 bg-slate-900 text-white rounded-lg p-5'>
             <div className='grid md:col-span-1 justify-center items-center'>
-              <img src='/images/gif2.gif' className='rounded-md' alt='' />
+              <img src='/images/gif2.gif' className='object-cover h-56 w-80 rounded-md' alt='' />
             </div>
             <div className='grid md:col-span-2'>
               <div className='flex flex-col md:items-end gap-5 p-2 md:p-9 md:text-right'>
