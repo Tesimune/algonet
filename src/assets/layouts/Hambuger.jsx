@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import NavLink from '../components/NavLink'
-import { BsArrowBarLeft } from 'react-icons/bs'
+import { AiOutlineClose } from 'react-icons/ai'
 
 function Hambuger() {
 
@@ -23,7 +23,7 @@ function Hambuger() {
     <div id='HambugerBar' className='hidden lg:hidden transition duration-5'>
       <div className='bg-white text- flex justify-center items-center h-screen transition duration-5 w-full p-5 absolute left-0 z-50'>
         <button onClick={HambugerHidde} className='text-lg absolute top-5 right-5'>
-          <BsArrowBarLeft className='w-9 h-9'/>
+          <AiOutlineClose className='w-9 h-9'/>
         </button>
           <div className='grid justify-center text-lg gap-5 font-bold '>
               <MyNavLink href="/" label="Home" />
