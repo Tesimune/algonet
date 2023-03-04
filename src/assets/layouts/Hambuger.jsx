@@ -21,8 +21,8 @@ function Hambuger() {
 
   return (
     <div id='HambugerBar' className='hidden lg:hidden transition duration-5'>
-      <div className='bg-white text- flex justify-center items-center h-screen transition duration-5 w-full p-5 absolute left-0 z-50'>
-        <button onClick={HambugerHidde} className='text-lg absolute top-5 right-5'>
+      <div className='bg-white text- flex justify-center items-center h-screen transition duration-5 w-full p-5 fixed z-50'>
+        <button onClick={HambugerHidde} className='text-gray-500 border p-3 rounded-full absolute top-9'>
           <AiOutlineClose className='w-9 h-9'/>
         </button>
           <div className='grid justify-center text-lg gap-5 font-bold '>
