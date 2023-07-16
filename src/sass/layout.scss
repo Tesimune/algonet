@@ -1,3 +1,3 @@
 .layout-container{
-    @apply grid justify-center w-full sm:max-w-[640px] md:max-w-[1024px] lg:max-w-[1280px] xl:max-w-[1400px]
+    @apply container mx-auto w-full sm:max-w-[640px] md:max-w-[1024px] lg:max-w-[1280px] xl:max-w-[1400px]
 }
